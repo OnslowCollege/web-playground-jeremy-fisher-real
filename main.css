@@ -1,0 +1,20 @@
+#box, #box2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+.colourSlider {
+    position: absolute;
+    left: 60px;
+}
+
+#datasell {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#selldatalabel {
+    font-size: 15px;
+}
