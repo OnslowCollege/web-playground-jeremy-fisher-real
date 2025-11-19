@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello world</title>
+        <title>Main page</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="navigation.css">
     </head>
     <body>
-        <label for="redSlider">Red: </label>
-        <input class="colourSlider" type="range" id="redSlider" min="0" max="255" value="255">
-        <br>
-        <label for="greenSlider">Green: </label>
-        <input class="colourSlider" type="range" id="greenSlider" min="0" max="255" value="0">
-        <br>
-        <label for="blueSlider">Blue: </label>
-        <input class="colourSlider" type="range" id="blueSlider" min="0" max="255" value="0">
-        <br>
-        <div id="box"></div>
-        <div id="datasell">
-            <label for="selldatacheck" id="selldatalabel">We can sell your data</label>
-            <input type="checkbox" checked disabled id="selldatacheck">
-        </div>
-        <script src="box.js"></script>
+        <nav id="nav_bar">
+            <p class="nav_link">HOME</p>
+            <a class="nav_link" href="info.html">INFORMATION</a>
+        </nav>
     </body>
 </html>

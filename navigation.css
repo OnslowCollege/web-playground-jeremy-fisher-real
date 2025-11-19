@@ -1,0 +1,17 @@
+#nav_bar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav_link {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 14px;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+}
