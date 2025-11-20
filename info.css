@@ -1,4 +1,35 @@
-#box, #box2 {
+.info_box {
+    border-style: solid;
+    border-color: #999;
+    border-radius: 5px;
+    background-color: #bbb;
+    display: inline-block;
+}
+
+.info_header {
+    font-family: monospace;
+    margin: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+}
+
+#grad1 {
+    background: linear-gradient(135deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+#grad2 {
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+/*Add gradients for boxes 3,4,5*/
+
+#box {
+    margin-top: 10px;
     width: 250px;
     height: 250px;
     background-color: red;
@@ -7,14 +38,4 @@
 .colourSlider {
     position: absolute;
     left: 60px;
-}
-
-#datasell {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
-
-#selldatalabel {
-    font-size: 15px;
 }
