@@ -1,0 +1,43 @@
+#main_header {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+@keyframes bounce_animation {
+    0% {rotate: 0deg;}
+    50% {rotate: 180deg;}
+    100% {rotate: 360deg;}
+}
+
+#spinning_text {
+    margin: 25px 5px;
+    position: fixed;
+    animation-name: bounce_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    right: 0;
+    bottom: 12.5px;
+}
+
+#feedback_box {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+
+@keyframes trash_animation {
+    0% {bottom: 0; left: 0; rotate: 0deg;}
+    25% {bottom: 100px; left: 0; rotate: 0deg;}
+    50% {bottom: 100px; left: 250px; rotate: 0deg;}
+    75% {bottom: 100px; left: 250px; rotate: 90deg;}
+    100% {bottom: -100px; left: 250px; rotate: 90deg;}
+}
+
+.feedback_animate {
+    position: relative;
+    animation-name: trash_animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}

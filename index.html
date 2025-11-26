@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Main page</title>
+        <title>Museum - Home</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="main-page.css">
         <link rel="stylesheet" href="navigation.css">
     </head>
     <body>
@@ -10,5 +11,21 @@
             <p class="nav_link">HOME</p>
             <a class="nav_link" href="info.html">INFORMATION</a>
         </nav>
+        <p id="spinning_text">I'm spinning</p>
+        <h1 id="main_header">Welcome to the museum of me!</h1>
+        <p>
+            This is a museum about me.<br>
+            This museum contains many things that I am interested in. <br>
+            For example, I am very interested in maths. <br>
+            I have used desmos graphing calculator to create many things. (Don't have the links right now)<br>
+            <a href="https://www.desmos.com/calculator" target="_blank">Desmos graphing calculator</a>
+        </p>
+        <p>test</p>
+        <div id="feedback_box">
+            <label for="feedback_input">Feedback: </label>
+            <input type="text" id="feedback_input">
+            <button onclick="triggerAnimation()" id="feedback_button">Submit</button>
+            <script src="feedback.js"></script>
+        </div>
     </body>
 </html>
