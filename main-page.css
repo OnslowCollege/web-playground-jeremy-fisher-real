@@ -26,18 +26,21 @@
     left: 5px;
 }
 
-@keyframes trash_animation {
-    0% {bottom: 0; left: 0; rotate: 0deg;}
-    25% {bottom: 100px; left: 0; rotate: 0deg;}
-    50% {bottom: 100px; left: 250px; rotate: 0deg;}
-    75% {bottom: 100px; left: 250px; rotate: 90deg;}
-    100% {bottom: -100px; left: 250px; rotate: 90deg;}
+#feedback_input {
+    position: relative;
 }
 
-.feedback_animate {
+#trashcan {
     position: relative;
-    animation-name: trash_animation;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+    left: 50px;
+    bottom: -15px;
+    z-index: 2;
+}
+
+@keyframes trash_animation {
+    0% {bottom: 0; left: 0; rotate: 0deg;}
+    25% {bottom: 200px; left: 0; rotate: 0deg;}
+    50% {bottom: 200px; left: 250px; rotate: 0deg;}
+    75% {bottom: 200px; left: 250px; rotate: 90deg;}
+    100% {bottom: -100px; left: 250px; rotate: 90deg;}
 }
